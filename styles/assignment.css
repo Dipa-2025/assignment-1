@@ -5,7 +5,6 @@
   font-style: normal;
   
 }
-
 .raleway-normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -74,8 +73,8 @@ nav {
   display: flex;
   justify-content: space-between;
   margin: 0px 100px;
-  margin-top: 70px;
-  margin-bottom: 70px;
+  margin-top: 150px;
+  margin-bottom: 90px;
   align-items: center;
   gap: auto;
 }
@@ -105,24 +104,28 @@ nav {
 .insight-section {
   background-color: #E5F3FD;
   margin: 0 100px;
-  margin-top: 70px;
+  margin-top: 150px;
   margin-bottom: 70px;
   align-items: center;
   text-align: center;
   padding: 50px 80px;
   border-radius: 30px;
+  height: 200px;
 }
 .insight-section:hover{
   opacity: 85%;
 }
 .insight-title {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
   text-align: center;
+  margin-bottom: 1px;
+  margin-top: 0;
 }
 .insight-container {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 0;
 }
 .insight-item h1 {
   font-size: 60px;
@@ -137,15 +140,15 @@ nav {
 
 /*review-section*/
 .review-section {
+  display: block;
   margin: 0 100px;
-  margin-top: 70px;
-  margin-bottom: 70px;
-  gap: auto;
+  margin-top: 150px;
+  margin-bottom: 80px;
 }
 .review-title h2 {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
 }
 .review-cards {
   display: flex;
@@ -158,6 +161,7 @@ nav {
   gap: 10px;
 }
 .reviewer-detail{
+  font-size: small;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -191,12 +195,12 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin: 0px 100px;
-  margin-top: 70px;
-  margin-bottom: 70px;
+  margin-top: 80px;
+  margin-bottom: 80px;
   gap: none;
 }
 .con-title h1{
-  font-size: 80px;
+  font-size: 70px;
   font-weight: bold;
   max-width: 200;
   padding: 20px;
@@ -210,26 +214,60 @@ nav {
   max-width: 500px;
 }
 
+/*extra part*/
+.extra{
+margin-top: 150px;
+margin-bottom: 80px;
+}
+.extra-content{
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.extra-content h2{
+font-size: 40px;
+font-weight: bold;
+margin-bottom: 1px;
+}
+.extra-content p{
+  font-size: 15px;
+  font-weight: 200;
+}
+.extra-pic{
+  border-radius: 30px;
+}
+.extra-pic:hover{
+  transform: scale(0.9);
+}
+
 /*footer section*/
 .footer{
-
+  margin: 0 500px;
+  padding: 50px 30px;
+  text-align: center;
 }
 footer h1{
-  font-size: 70px;
+  font-size: 75px;
   font-weight: 900;
   margin-bottom: 1px;
 }
 .footer-des{
-  font-size: 15px;
-  max-width: 500px;
+  font-size: 12px;
+  justify-content: center;
+  max-width: 400px;
   color: #8987A1;
   margin: 0
 }
-.footer-nav ul{
+.footer-list ul{
   display: flex;
+  justify-content: center;
+}
+.footer-list li{
   list-style: none;
-  text-decoration: none;
   color: #8987A1;
-  justify-content: space-around;
-
+  font-size: 12px;
+  margin: 20px;
+}
+.footer-list li:hover{
+  transform: scale(0.8);
 }
