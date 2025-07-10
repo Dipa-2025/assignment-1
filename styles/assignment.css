@@ -2,9 +2,8 @@
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 900;
   font-style: normal;
-  color: #4E47FF;
+  
 }
 
 .raleway-normal {
@@ -17,6 +16,11 @@
 body {
   margin: 0;
   text-align: center;
+}
+
+.logo {
+  font-weight: 900;
+  color: #4E47FF;
 }
 
 /*nav styles*/
@@ -37,23 +41,195 @@ nav {
   padding: 12px 36px;
   gap: 10;
 }
-
-/*banner styles*/
-.banner-section{
-  background-image: url("../Assets/Hero-bg.png");
+.btn:hover{
+  transform: scale(0.7);
 }
 
+/*banner styles*/
+.banner-section {
+  background-image: url("../Assets/Hero-bg.png");
+  margin-bottom: 70px;
+}
 .banner {
   align-items: center;
   margin: 0px 200px;
   gap: 37px;
-
 }
-
 .banner-title {
   font-size: 60px;
   font-weight: bold;
-  color: #252432;
   margin-top: 100px;
   line-height: auto;
+}
+
+.dark1 {
+  color: #252432;
+}
+.dark2 {
+  color: #4E47FF;
+}
+
+/*action style*/
+.action-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 100px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  align-items: center;
+  gap: auto;
+}
+.action-title {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+}
+.action-content {
+  text-align: left;
+  max-width: 300px;
+  gap: 20px;
+}
+.action-description {
+  font-size: 15px;
+  font-weight: 200;
+}
+.action-pic {
+  width: 300px;
+  border-radius: 48px;
+}
+.action-pic:hover{
+  transform: scale(1.2);
+}
+
+/*insight-section*/
+.insight-section {
+  background-color: #E5F3FD;
+  margin: 0 100px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  align-items: center;
+  text-align: center;
+  padding: 50px 80px;
+  border-radius: 30px;
+}
+.insight-section:hover{
+  opacity: 85%;
+}
+.insight-title {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+.insight-container {
+  display: flex;
+  justify-content: space-around;
+}
+.insight-item h1 {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 1px;
+}
+.insight-item p {
+  font-size: 15px;
+  font-weight: 200;
+  margin-top: 1px;
+}
+
+/*review-section*/
+.review-section {
+  margin: 0 100px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  gap: auto;
+}
+.review-title h2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.review-cards {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+}
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.reviewer-detail{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.card {
+  display: block;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 300px;
+}
+.card:hover{
+  box-shadow: 0 5px 8px 0;
+}
+.star ul {
+  display: flex;
+  list-style: none;
+  float: left;
+}
+.card-title {
+  font-size: 15px;
+  font-weight: 600;
+}
+.comment {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+/*contact-section*/
+.contact-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 100px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  gap: none;
+}
+.con-title h1{
+  font-size: 80px;
+  font-weight: bold;
+  max-width: 200;
+  padding: 20px;
+  width: 500;
+  height: 230;
+}
+.contact-list{
+  display: block;
+  text-align: left;
+  font-size: 15px;
+  max-width: 500px;
+}
+
+/*footer section*/
+.footer{
+
+}
+footer h1{
+  font-size: 70px;
+  font-weight: 900;
+  margin-bottom: 1px;
+}
+.footer-des{
+  font-size: 15px;
+  max-width: 500px;
+  color: #8987A1;
+  margin: 0
+}
+.footer-nav ul{
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  color: #8987A1;
+  justify-content: space-around;
+
 }
